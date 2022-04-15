@@ -1,0 +1,6 @@
+div{
+    margin: 100px;  /*margin --> outside space*/
+    padding: 50px;  /*padding --> inside space*/
+    border: 1px solid black;
+    background-color: gray;
+}

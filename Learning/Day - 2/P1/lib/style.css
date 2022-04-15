@@ -1,0 +1,61 @@
+h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid black;
+  width: 50%;
+  margin: auto;
+}
+
+td,
+th {
+  border: 1px solid black;
+}
+
+td {
+  text-align: center;
+}
+th {
+  font-size: 20px;
+  height: 30px;
+  vertical-align: bottom;
+}
+
+tr:hover {
+  background-color: cadetblue;
+}
+td:hover,
+tr:hover {
+  color: white;
+}
+
+input {
+  width: 15%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+input[type="text"]:focus {
+  background-color: gray;
+}
+
+div[id="inputLabel"] {
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+
+.myClass{                   /* our own class */
+    color: crimson;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    text-align: center;
+}
+
+#creator{
+    background-color: darkseagreen;
+    color: white;
+}
