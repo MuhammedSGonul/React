@@ -1,0 +1,172 @@
+<html lang="tr">
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="lib/style.css" />
+    <script src="lib/script.js"></script>
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Movieez</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+            
+            
+            <ul class="navbar-nav ">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Categories
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Animation</a></li>
+                  <li><a class="dropdown-item" href="#">History</a></li>
+                  <li><a class="dropdown-item" href="#">Thriller</a></li>
+                  <li><a class="dropdown-item" href="#">Sci-Fi</a></li>
+                </ul>
+              </li>
+              
+              <li>
+              <a class="nav-link" href="#" id="navbarDarkDropdownMenuLink" role="button" aria-expanded="false">
+                Popular Movies
+              </a>
+            </li>
+            <li>
+              <a class="nav-link" href="#" id="navbarDarkDropdownMenuLink" role="button" aria-expanded="false">
+                New Movies
+              </a>
+            </li>
+            <li>
+              <a class="nav-link" href="#" id="navbarDarkDropdownMenuLink" role="button" aria-expanded="false">
+                IMDb Top 100
+              </a>
+            </li>
+            </ul>
+            
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li>
+                    <a href="signUp.html">
+                        <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Sign Up</button>    
+                    </a>
+                    
+                  </li>
+                  <li>
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Sign In</button>
+                  </li>
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+
+    
+
+    <br />
+    <h1 style="text-align: center">Watchable Movies</h1>
+    <br />
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <h2 class="movieName">Batman</h1>
+          <img
+            class="img-thumbnail"
+            src="https://m.media-amazon.com/images/M/MV5BYjRhOWE0NmUtYjg4MS00OTk1LTg3N2ItOGMzZTgzMjA0ODMzXkEyXkFqcGdeQXVyMTMzNzIyNDc1._V1_.jpg"
+            alt=""
+          />
+          <div class="movieWatchButton">
+            <button type="button" class="btn btn-success">Watch Movie</button>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <h2 class="movieName">Spiderman</h1>
+          <img
+            class="img-thumbnail"
+            src="https://gecbunlari.com/wp-content/uploads/2021/12/Spiderman-No-Way-Home.jpg"
+            alt=""
+          />
+          <div class="movieWatchButton">
+            <button type="button" class="btn btn-success">Watch Movie</button>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <h2 class="movieName">Kings Man</h1>
+          <img
+            class="img-thumbnail"
+            src="https://ortakoltuk.com/wp-content/uploads/2022/01/The-Kings-Man-Baslangic.jpg"
+            alt=""
+          />
+          <div class="movieWatchButton">
+            <button type="button" class="btn btn-success">Watch Movie</button>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <h2 class="movieName">The Adam Project</h1>
+          <img
+            class="img-thumbnail"
+            src="https://tr.web.img2.acsta.net/pictures/22/03/01/15/52/0260993.jpg"
+            alt=""
+          />
+          <div class="movieWatchButton">
+            <button type="button" class="btn btn-success">Watch Movie</button>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <h1 style="text-align: center">Upcoming Movies</h1>
+      <br />
+      <br />
+      <div class="row">
+        <table class="table table-striped table-hover">
+          <thead>
+            <tr>
+              <td class="upComingMoviesTable">Upcoming Movies</td>
+              <td class="upComingMoviesTable">Date</td>
+              <td class="upComingMoviesTable">Director</td>
+              <td class="upComingMoviesTable">Stock</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Doctor Strange</td>
+              <td>6 March 2022</td>
+              <td>Sam Raimi</td>
+              <td class="stockStateOnSale">On Sale</td>
+            </tr>
+            <tr class="table-danger">
+              <td>Lightyear</td>
+              <td>17 June 2022</td>
+              <td>Angus MacLane</td>
+              <td class="stockStateOutOfStock">Out of stock</td>
+            </tr>
+            <tr>
+              <td>Top Gun 2</td>
+              <td>27 May 2022</td>
+              <td>Joseph Kosinski</td>
+              <td class="stockStateOnSale">On Sale</td>
+            </tr>
+            <tr>
+              <td>John Wick 4</td>
+              <td>24 March 2022</td>
+              <td>Chad Stahelski</td>
+              <td class="stockStateOnSale">On Sale</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  </body>
+</html>

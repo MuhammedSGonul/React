@@ -1,0 +1,39 @@
+.movieName{
+    text-align: center;
+}
+.moviePrice{
+    text-align: center;
+}
+.movieWatchButton{
+    text-align: center;
+}
+.stockStateOnSale{
+    color: green;
+}
+.stockStateOutOfStock{
+    color: red;
+}
+.upComingMoviesTable{
+    font-size: 25px;
+}   
+
+.navbar-brand{
+    font-size: 25px;
+}
+
+.navbar-nav > li{
+    margin-left:30px;
+    margin-right:30px;
+}
+
+.labelForm{
+    text-align: center;
+}
+
+.vertical-center {
+    min-height: 100%; 
+    min-height: 100vh; 
+  
+    display: flex;
+    align-items: center;
+  }
