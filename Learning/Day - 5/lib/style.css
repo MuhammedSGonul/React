@@ -1,0 +1,23 @@
+.navbar-brand{
+    font-size: 30px;
+}
+
+.nav-link{
+    font-size: 20px;
+}
+
+.navbar-nav > li{
+    margin-left:30px;
+    margin-right:30px;
+}
+
+
+.vertical-center {
+    min-height: 100%; 
+    min-height: 100vh; 
+  
+    display: flex;
+    align-items: center;
+}
+
+
