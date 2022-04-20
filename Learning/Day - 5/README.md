@@ -2,8 +2,8 @@ Today for the first time I revived the project on a project [Day - 4](https://gi
 Adding and deleting books to the library is done. Added books are stored in localStorage.
 <br/>
 <br/>
-![alt text](https://raw.githubusercontent.com/MuhammedSGonul/React/main/Learning/Day%20-%205/1.png)
+![alt text](https://raw.githubusercontent.com/MuhammedSGonul/React/main/Learning/Day%20-%205/img/1.png)
 <br/>
-![alt text](https://raw.githubusercontent.com/MuhammedSGonul/React/main/Learning/Day%20-%205/2.png)
+![alt text](https://raw.githubusercontent.com/MuhammedSGonul/React/main/Learning/Day%20-%205/img/2.png)
 <br/>
-![alt text](https://raw.githubusercontent.com/MuhammedSGonul/React/main/Learning/Day%20-%205/3.png)
+![alt text](https://raw.githubusercontent.com/MuhammedSGonul/React/main/Learning/Day%20-%205/img/3.png)
