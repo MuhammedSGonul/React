@@ -1,0 +1,57 @@
+.navbar-light .navbar-brand {
+  color: white;
+}
+
+#nav-logo {
+  font-size: 50px;
+  color: #fbd30c;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.product-card{
+  color: black;
+  display: table-cell;
+}
+.product-text{
+  color: rgb(99, 99, 99);
+  text-align: center;
+}
+.product-text:hover{
+  color: #571089;
+}
+
+.nav-category{
+  font-family: 'Red Hat Display', sans-serif;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  margin-right: 40px;
+}
+
+.nav-category:hover{
+  color: #fbd30c;
+}
+
+.nav-login{
+  color: white;
+  position: absolute;
+  right: 2%;
+  top: 5%;
+  text-decoration: none;
+}
+.nav-login:hover{
+  color: #fbd30c;
+}
+
+.search-button{
+  color: white;
+  background-color: #fbd30c;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+  box-shadow: white;
+}
